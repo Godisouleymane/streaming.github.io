@@ -1,0 +1,68 @@
+body{
+    height: 100vh !important;
+}
+
+.mylogo {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.dark-mode {
+    background-color: rgb(6, 20, 37);
+    color: white;
+}
+
+.button-nav {
+   box-shadow: 4px 4px 4px black;
+}
+
+.moon i:hover {
+  cursor: pointer;
+}
+
+
+.card-icons ul li {
+    list-style: none;
+    border-radius: 5px;
+}
+
+.card-icons ul li i {
+    transition: all 0.3s;
+}
+
+.card-icons ul li i:hover {
+    transform: scale(1.2);
+    color: orangered;
+    border-radius: 10px;
+}
+
+select{
+    cursor: pointer;
+}
+
+.ul2 a {
+    transition: all 0.3s;
+}
+
+.ul2 a:hover {
+    color: orangered !important;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    header .my-span span {
+        font-size: 5px !important;
+        flex-wrap: wrap;
+       
+    }
+
+    .mylogo {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+}
